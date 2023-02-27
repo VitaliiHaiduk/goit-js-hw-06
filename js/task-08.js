@@ -13,6 +13,7 @@ const userData = (event) => {
             email: email.value,
             password: password.value,
         };
+        console.log(userDataObject);
     }
 
     event.currentTarget.reset();
